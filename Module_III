@@ -7,3 +7,96 @@ def greeting():
   print("Hello there, " + name)
   print("Nice to meet you, " + name)
   print("Su'cuy gar, " = name)
+
+
+#Part II
+def greetingRollcall():
+  print("Please enter name (1/3)")
+  nameListInputOne = input()
+  print("Please enter name (2/3)")
+  nameListInputTwo = input()
+  print("Please enter name (3/3)")
+  nameListInputThree = input()
+nameList = greetingRollcall()
+
+for i in range(3):
+  print("Hello there, " + nameList[i])
+  print("Nice to meet you, " + nameList[i])
+  print("Su'cuy gar, " = nameList[i])
+  print("")
+
+
+#Part III
+def fullName():
+  print("Please enter your first name")
+  firstName = input()
+  print("Please enter your surname")
+  lastName = input()
+  print("I hope you are having a good day, " + firstName + " " + lastName + "!")
+for i in range(3):
+  fullName()
+
+
+#Part IV
+def addCalculator(x,y):
+  sum = x + y
+  print("The sum is: " + str(sum))
+addCalculator(3,5)
+addCalculator(2,9)
+addCalculator(999,1)
+
+
+#Part V
+def returnCalculator(x,y):
+  sum = x + y
+  return sum
+numOne = returnCalculator(2,2)
+numTwo = returnCalculator(3,4)
+numThree = returnCalculator(7,5)
+
+print("The sum is: " + str(numOne))
+print("The sum is: " + str(numTwo))
+print("The sum is: " + str(numThree))
+
+
+#Part VI
+pow(16, (1/2))
+pow(16, .5)
+pow(16, (4/8))
+int(pow(16, .5))
+
+
+#Part VII
+x = [1, 2, 3, 4, 5]
+y = [11, 12, 13, 14, 15]
+z = (21, 22, 23, 24, 25)
+
+print(3*x)
+print(x+y)
+print(x-y)
+print(x[1])
+print(x[0])
+print(x[-1])
+print(x[:])
+print(x[2:4])
+print(x[:2])
+print(x[::2])
+
+x[3] = 8
+
+print(x)
+
+print(3*z)
+print(z+y)
+print(z-y)
+print(z[1])
+print(z[0])
+print(z[-1])
+print(z[:])
+print(z[2:4])
+print(z[:2])
+print(z[::2])
+
+z[3] = 8
+
+print(z)
