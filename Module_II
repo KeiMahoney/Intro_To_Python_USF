@@ -1,0 +1,9 @@
+#Module II - 5.27.2024
+
+#Part I
+print("Hello, World!")
+
+#Part II
+String_I = "Welcome to the Universe!"
+print("Welcome to the Stars!")
+print(String_I)
