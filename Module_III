@@ -1,0 +1,9 @@
+#Module III - 6.3.2024
+
+#Part I
+def greeting():
+  print("Please enter your name: ")
+  name = input()
+  print("Hello there, " + name)
+  print("Nice to meet you, " + name)
+  print("Su'cuy gar, " = name)
