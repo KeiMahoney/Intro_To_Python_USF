@@ -1,0 +1,47 @@
+#Module V 6.17.2024
+
+#Part I
+class Rectangle:
+  def __init__(self, posn, w, h):
+    self.corner = posn
+    self.width = w
+    self.height = h
+  def __str__(self):
+    return "({0}, {1}, {2})".format(self.corner, self.width, self.height)
+
+class Point:
+  def__init__(self, x, y):
+    self.x = x
+    self.y = y
+  def __str__(self):
+    return "({0}, {1})".format(self.x, self.y)
+
+box = Rectangle(Point(0,0), 100, 200)
+bomb = Rectangle(Point(100, 80), 5, 10)
+
+print("box:" , box)
+print("bomb:" , bomb)
+
+
+#Part II
+def createRectangle(x, y, w, h):
+  return Rectangle(Point(x,y), w, h)
+def strRectangle(rectangle)
+  return str(rectangle)
+def shiftRectangle(rectangle, dx, dy):
+  rectangle.corner.y = dx
+  rectangle.corner.y = dy
+def offsetRectangle(rectangle, dx, dy):
+  newX = rectangle.corner.x + dx
+  newY = rectangle.corner.y + dy
+  newPoint = Point(newX, newY)
+  return Rectangle(newPoint, rectangle.width, rectangle.height)
+
+rectangleOne = createRectangle(10, 20, 30, 40)
+print(strRectangle(rectangleOne))
+shiftRectangle(rectangleOne, -10, -20)
+print(strRectangle(rectangleOne))
+
+rectangleTwo = offsetRectangle(rectangleOne, 100, 100)
+print(strRectangle(rectangleOne))
+print(strRectangle(rectangleTwo))
