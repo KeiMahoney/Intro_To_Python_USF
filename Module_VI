@@ -1,0 +1,39 @@
+#Module VI 6.24.2024
+
+#Part I
+
+import sys
+sampleData = " alpha\t bravo\t charlie\t delta\t echo\t foxtrot\t     "
+for line in sampleData:
+    data = sampleData.strip().split("\t")
+    if len(data)==6:
+        date, time, store, item, cost, payment = data
+print("{0}\t{1}".format(item, cost))
+
+
+#Part II
+
+from datetime import datetime  
+from datetime import timedelta  
+
+print(datetime.now())
+print(datetime.now() + timedelta(seconds=-60))
+print(datetime.now() + timedelta(days=365*2))
+print(datetime.now() + timedelta(days=365*2, seconds=-60))
+
+
+#Part III
+
+timeObject = timedelta(days=100, hours=10, minutes=13)
+print(timeObject)
+
+
+#Part IV
+
+def timeMeasurement(feet, inches):
+  currentTime = datetime.now()
+  print("Type-feet-: " + str(type(feet)))
+  print("Type-inches-: " + str(type(inches)))
+  print("Type-datetime object-: " + str(type(currentTime)))
+
+timeMeasurement(13, 4)
