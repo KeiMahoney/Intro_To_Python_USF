@@ -1,0 +1,18 @@
+#Module IV - 6.3.2024
+
+#Part I
+import math
+def quadraticRoot(a, b, c):
+  a = a
+  b = b 
+  c = c
+  xAdd = round((-b + math.sqrt(pow(b,2) - (4*a*c))) / (2*a), 2)
+  xSub = round((-b - math.sqrt(pow(b,2) - (4*a*c))) / (2*a), 2)
+  return xAdd, xSub
+print(quadraticRoot(1, -5.86, 8.5408)
+
+
+#Part II
+numList = [1,2,3,4,5,6,7,8,9,10]
+for x in numList:
+  print(1/x)
