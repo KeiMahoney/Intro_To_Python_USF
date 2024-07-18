@@ -1,6 +1,3 @@
-#Make sure to mention in the blog post that the stats were modified from D&D Beyond. 
-#Mainly that they were vastly simplified, this is just a very bare bones simulation, made to 
-#give an idea of what encounters are kind of like.
 #D&D Encounter Simulation (Simplified)
 
 import random
