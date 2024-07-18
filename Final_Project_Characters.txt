@@ -1,0 +1,5 @@
+Kenku;61;17;You dodge the attack with a cawing laugh, raising your knives in a defensive position.
+Elf;31;15;You nimbly sidestep the attack as you notch an arrow to counterattack. 
+Tortle;29;19;You absorb the blow with your shell, slowly you ready your spear in defense.
+Autognome;56;16;The blow ricocheted off of your metal body and steam hisses from your joints as you gear up to punch your attacker.
+Dragonborn;73;14;You block the incoming attack with your scales, brandishing your staff, you prepare for a fight.

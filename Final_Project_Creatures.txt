@@ -1,0 +1,10 @@
+Owlbear;59;14;13;From the forest, a creature lumbers towards you. With the face of an owl, and the body of a bear, an Owlbear attacks!
+Abbysal Wretch;32;9;11;Clicking-screeching noises reverberate down the cave tunnel. From the darkness, a malnourished Abyssal Wretch slashes its claws!
+Illithid;71;10;15;You feel a presence hovering just outside of your mind, looking around, you see a cthulu-esque humanoid. An Illithid invades!
+Lich;100;10;16;You have trespassed where you should not have, exploring an old, decrepit castle. Upon discovering the throne room, a Lich takes offence!
+Skeleton;13;5;13;While adventuring through an abandoned town, you pass a mossy graveyard. Rising up from an old grave, a Skeleton swings its rusty sword!
+Ghoul;22;9;12;A raspy, gurgling cry echoes from the shadows of the cave. Razor-sharp teeth glint in the moonlight as a Ghoul charges towards you!
+Wyrmling;52;15;17;As you travel across the sprawling sylvan landscape, you unknowingly trespass on a Blue Dragon Wyrmling's territory. Swooping downwards, the Wyrmling strikes!
+Wolf;37;10;14;Assisting a caravan in crossing a dark forest, howling begins in the distance. As you continue on Dire Wolf jumps from the brush and snaps at you!
+Ooze;22;9;14;A gurgling sound bubbles up from behind you, turning around, you see a blue gelatinous form take shape. An Ooze attacks!
+Zombie;15;4;8;Starting off your adventure, you notice a rotting smell in the air. With a croaking groan, a Zombie tries to slam into you!
