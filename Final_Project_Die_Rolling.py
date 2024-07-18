@@ -1,12 +1,3 @@
-#Idea: Make a die rolling generator, like the one we use for D&D campaigns. 
-#What it does (in no particular order): 
-#I. Ask what kind of die will be rolled
-#II. How many die will be rolled
-#III. Are they the same kind of die
-#IV. List out the die available: Can be any number, but list out the common types used in campaigns
-#Make sure to comment note what the functions do, proper coding practices
-
-
 #Die Rolling
 
 import random
@@ -27,7 +18,7 @@ def dieType():
         userInput = input()
         if userInput.lower() == 'help' or userInput.lower() == 'info':
             print("Enter the number of the sides of the di(c)e you want.")
-        elif int(userInput) != TypeError:
+        elif userInput.isdigit() == True:
             dieType = int(userInput)
             i += 1
         else:
@@ -66,7 +57,3 @@ def rollDamage():
     roll = rollDice(6, 2)
     damage = int(roll[0] + roll[1])
     return damage
-
-#maybe switch the order of rollDice, to make it like 2 d6 instead of d6 2
-
-dieType()
